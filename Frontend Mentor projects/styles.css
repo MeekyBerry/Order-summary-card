@@ -1,0 +1,121 @@
+@import url('https: //fonts.google.com/specimen/Red+Hat+Display');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    /* Primary colors */
+    --pale-blue: hsl(225, 100%, 94%);
+    --bright-blue: hsl(245, 75%, 52%);
+
+    /* Neutral colors */
+    --very-pale-blue: hsl(225, 100%, 98%);
+    --desaturated-blue: hsl(224, 23%, 55%);
+    --dark-blue: hsl(223, 47%, 23%);
+}
+body {
+    background-image: url("pattern-background-desktop.svg");
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+.container {
+    width: 440px;
+    max-width: 100%;
+    height: 650px;
+    text-align: center;
+    margin: 200px auto;
+    background-color: var(--very-pale-blue);
+    box-shadow: 0 10px 10px 0 rgb(0, 0, 0, 0.2), 0 10px 10px 0 rgb(0, 0, 0, 0.2);
+    border-radius: 1rem;
+
+}
+
+
+h1 {
+    font-weight: 900;
+    font-size: 25px;
+    margin: 20px;
+}
+
+h3 {
+    font-weight: 700;
+    white-space: nowrap;
+}
+
+p {
+    font-size: 16px;
+    font-weight: 500;
+    white-space: wrap;
+    line-height: 1.5;
+}
+
+.img-container {
+width: 100%;
+border-top-left-radius:  1rem;
+border-top-right-radius: 1rem;
+}
+
+.section-container {
+    margin: 0 30px;
+    padding: 10px;
+}
+
+.flex-container {
+    height: 90px;
+    padding: 10px;
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-columns: auto auto auto auto;
+    background-color: var(--pale-blue);
+    border-radius: 10px;
+    margin-top: 15px;
+    opacity: 0.5;
+}
+
+.img {
+    background-color: var(--desaturated-blue);
+    grid-row: 1 / span 2;
+    margin: 10px;
+    border: 1px thin;
+    border-color: var(--desaturated-blue);
+    border-radius: 40px;
+}
+
+.annual {
+    grid-column: 2;
+    margin: 15px 150px 0 0;
+}
+
+.year {
+     grid-column: 2;
+    margin: 0 150px 3px 0;
+}
+
+.change {
+    color: var(--bright-blue);
+    text-decoration: underline;
+    
+}
+
+button {
+    width: 100%;
+    margin: 40px 0;
+    padding: 10px;
+    background-color: var(--bright-blue);
+    color: var(--pale-blue);
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 15px 3px 3px;
+}
+
+.order {
+    color: var(--desaturated-blue);
+    font-weight: 700;
+}
