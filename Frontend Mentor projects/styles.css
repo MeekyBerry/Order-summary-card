@@ -19,7 +19,7 @@
 
 @media (max-width: 1440px) {
     body {
-        background-image: url('pattern-background-desktop.svg');
+        background-image: url("./Frontend Mentor projects/pattern-background-desktop.svg");
         background-size: fit-content;
         background-repeat: no-repeat;
         width: 100vw;
@@ -150,7 +150,7 @@
 
     @media (min-width: 370px) and (max-width: 500px) {
         body {
-            background-image: url(pattern-background-mobile.svg);
+            background-image: url("./Frontend Mentor projects/pattern-background-mobile.svg");
             background-size: fit-content;
             width: 100vw;
             background-color: var(--pale-blue);
