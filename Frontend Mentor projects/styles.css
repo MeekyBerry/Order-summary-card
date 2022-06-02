@@ -146,6 +146,7 @@
     footer {
         text-align: center;
     }
+}       
 
     @media (min-width: 370px) and (max-width: 500px) {
         body {
@@ -155,12 +156,7 @@
             background-color: var(--pale-blue);
         }
 
-        /*.container {
-		max-width: 20%;	
-		margin-right: 500px;
-		
-		
-	}*/
+
 
         footer {
             white-space: nowrap;
