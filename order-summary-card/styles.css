@@ -18,7 +18,7 @@
 }
 
 body {
-    background-image: url("/order summary card/pattern-background-mobile.svg");
+    background-image: url("/order-summary-card/pattern-background-mobile.svg");
     background-size: fit-content;
     background-repeat: no-repeat;
     width: 100vw;
@@ -148,7 +148,7 @@ body {
 
 @media (min-width: 768px) {
     body {
-        background-image: url("/order summary card/pattern-background-desktop.svg");
+        background-image: url("/order-summary-card/pattern-background-desktop.svg");
         background-size: fit-content;
         background-repeat: no-repeat;
         width: 100vw;
